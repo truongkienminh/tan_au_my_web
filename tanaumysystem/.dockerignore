@@ -1,0 +1,21 @@
+# bỏ thư mục build cũ
+target/
+
+# Git
+.git
+.gitignore
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dockerfile và docker-compose thường không cần trong image
+docker-compose.yml
